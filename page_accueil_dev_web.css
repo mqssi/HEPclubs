@@ -1,0 +1,120 @@
+@font-face {
+  src: url(fonts/Raleway-Regular.ttf);
+  font-family: nos;
+}
+
+    body{ font: 14px sans-serif; text-align: center; }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left:0;
+      width: 100%;
+    }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #2d6da3;
+  }
+
+body{
+  background-color:#e5e7ea;
+  color:#2d6da3;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+#centre {
+  border-width:1px;
+  border-style: ridge;
+  border-color:DarkGrey;
+  padding;
+  font-size:150%;
+  font-family: sans-serif;
+  display:inline-block;
+  left:25%;
+  background-color:white;
+  width: 50vw;
+  margin-top: 15vh;
+  background-color:white;
+}
+
+#para{
+  margin-top: 10vh;
+}
+
+#recherche {
+  float: right;
+  margin-right:5vw;
+  display:inline-block;
+}
+
+#bar, #rechercher {
+  display:inline-block;
+  padding-top:15px;
+  height: 100%;
+}
+
+#rechercher input {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+}
+
+#query {
+  width: 70%;
+}
+
+#home, #club, #param, #contact, #result {
+  padding-top: 3em;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#home h1 strong {
+  text-decoration: underline;
+}
+
+#param h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#btn-warning {
+  color: whitesmoke;
+}
+
+#btn-danger {
+  color: rgb(129, 123, 123);
+}
+
+a, #contact p, #centre p {
+  text-decoration: none;
+  color: rgb(53, 51, 51);
+}
+
+#top {
+  padding-top: 3em;
+}

@@ -1,0 +1,57 @@
+@font-face {
+  src: url(fonts/Raleway-Regular.ttf);
+  font-family: nos;
+}
+
+
+
+#droite {
+  margin-top: -1.20vh;
+  display:inline-block;
+  position:fixed;
+  left:50%;
+  height: 100vh;
+  width: 50vw;
+  background-color:#087FBD;
+}
+#gauche{
+  font-size:150%;
+  font-family: nos;
+  display:inline-block;
+  position:fixed;
+  left:25%;
+  margin-left: -25vw;
+  background-color:white;
+  width: 50vw;
+  margin-top: 15vh;
+}
+#ul-gauche {
+  font-weight: bold;
+  margin-top: 7vh;
+  margin-right: 2vw;
+  list-style: none;
+}
+
+body {
+  display:inline-block;
+}
+#champ{
+  font-weight: bold;
+  position:fixed;
+  margin-left: -7vw;
+  left:75%;
+  margin-top: 35vh;
+  max-width:20vw;
+}
+p, a, h2 {
+  color:white!important;
+}
+
+#photo{
+  margin-right: 0vw;
+  width: 10em;
+}
+
+#inscrire{
+  font-weight: 300;
+}

@@ -1,0 +1,42 @@
+
+@font-face {
+  src: url(fonts/Raleway-Regular.ttf);
+ font-family: nos;
+
+
+}
+
+
+
+
+#query{
+  text-align: center;
+  background: ##F7F8E0;
+  font-family: nos;
+}
+
+
+#bar{
+  text-align: center;
+  background: ##F7F8E0;
+}
+
+
+#rechercher{
+  text-align: center;
+  background: ##F7F8E0;
+  padding-top: 2em;
+  font-family: nos;
+
+
+
+}
+
+#font {
+  font-family: nos;
+}
+
+h1 {
+    text-align: center;
+    font-family: nos;
+}
